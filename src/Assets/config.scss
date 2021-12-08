@@ -1,0 +1,69 @@
+/*
+Vars
+*/
+$black: #010000;
+$white: #ffffff;
+$lightGrey: #e6e6e6;
+$darkGrey: #333;
+$red: #ff1755;
+$sharkskin: #838487;
+$aurorared: #b93a32;
+$ultraviolet: #6b5b95;
+$cherrytomato: #e94b3c;
+$babyblue: #6f9fd8;
+$lime: #bfd641;
+$sailorblue: #2e4a62;
+$greenery: #92b558;
+$grenadine: #dc4c46;
+$navy: #223a5e;
+$neutralgrey: #898e8c;
+$marina: #4f84c4;
+$maple: #d2691e;
+
+/*
+Mixins
+*/
+
+@mixin translateY($e) {
+  -webkit-transform: translateY($e);
+  -moz-transform: translateY($e);
+  transform: translateY($e);
+}
+
+@mixin transition($e) {
+  -webkit-transition: $e;
+  -moz-transition:($e);
+  transition: $e;
+}
+
+/*Fonts -
+
+regular 400
+regular 400 Italic
+bold 700
+bold 700 Italic
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: $black;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  @include transition(.4s ease-in-out);
+  cursor: pointer;
+
+  &:hover {
+    color: $red;
+    @include transition(.4s ease-in-out);
+
+  }
+}
+
+
+.container-fluid {
+  line-height: 24px;
+}

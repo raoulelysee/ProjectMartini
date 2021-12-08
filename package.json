@@ -1,0 +1,44 @@
+{
+  "name": "restomartini",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "google-map-react": "^0.34.0",
+    "google-maps-react": "^1.1.11",
+    "material-ui": "^0.20.0",
+    "material-ui-next": "npm:material-ui@next",
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.1.2",
+    "nuka-carousel": "^4.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-lazy-hero": "^0.4.0",
+    "react-responsive-carousel": "^3.1.33",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "reactjs-carousel": "^1.16.1",
+    "reactjs-popup": "^1.0.5",
+    "webpack": "^3.11.0"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar ./src/Assets/ -o ./src/Assets/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/Assets/ -o src/Assets/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "react-scripts start",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "file-loader": "^1.1.7",
+    "gulp": "^3.9.1",
+    "parcel-bundler": "^1.6.2",
+    "style-loader": "^0.20.2",
+    "google-maps": "^3.2.1"
+  }
+}
