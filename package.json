@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.9.3",
+    "aws-amplify-react": "^5.1.9",
     "google-map-react": "^0.34.0",
     "google-maps-react": "^1.1.11",
     "material-ui": "^0.20.0",
@@ -19,7 +20,8 @@
     "react-scripts": "1.1.1",
     "reactjs-carousel": "^1.16.1",
     "reactjs-popup": "^1.0.5",
-    "webpack": "^3.11.0"
+    "webpack": "^3.11.0",
+    "yarn": "^1.22.17"
   },
   "scripts": {
     "build-css": "node-sass-chokidar ./src/Assets/ -o ./src/Assets/",
@@ -36,9 +38,9 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.9",
     "file-loader": "^1.1.7",
+    "google-maps": "^3.2.1",
     "gulp": "^3.9.1",
     "parcel-bundler": "^1.6.2",
-    "style-loader": "^0.20.2",
-    "google-maps": "^3.2.1"
+    "style-loader": "^0.20.2"
   }
 }
