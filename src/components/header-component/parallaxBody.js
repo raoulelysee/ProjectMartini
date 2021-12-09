@@ -25,14 +25,6 @@ class ParallaxBody extends Component {
               La meilleure pizza &agrave; Ahuntsic depuis plus de 45 ans.
             </p>
             <br />
-            <p style={{ color: "black", fontSize: "30px", fontFamily: "comic sans ms", fontWeight: 'bold', textShadow: '2px 2px 5px white' }}>
-              Nous restons ouvert durant la pand&eacute;mie pour vous servir.
-              <br />
-              Veuillez prendre connaissance de nos nouvelles heures d'ouverture.
-              <br />
-              Bonne chance et merci de nous encourager !
-            </p>
-
           </LazyHero>
 
 
